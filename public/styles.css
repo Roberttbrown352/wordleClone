@@ -1,0 +1,123 @@
+body {
+  background-color: black;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#word-bar {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  width: 50vw;
+  height: 75px;
+}
+
+#keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  width: 66vw;
+}
+
+td {
+  height: 75px;
+  width: 75px;
+  background-color: darkgray;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.input-button {
+  height: 75px;
+  width: 75px;
+  background-color: darkgray;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.input-button:hover {
+  border-color: grey;
+}
+
+#backspace {
+  background-color: red;
+}
+
+#enter {
+  background-color: green;
+}
+
+#keyboard > table > tbody > tr > td:hover {
+  border-color: grey;
+}
+
+#keyboard > table > tbody > tr > td > div {
+  height: 75px;
+  width: 75px;
+}
+
+.word-bar-with-buttons {
+  display: flex;
+}
+
+.header {
+  color: white;
+}
+
+td.near {
+  background-color: yellow;
+}
+
+td.correct {
+  background-color: green;
+}
+
+td.wrong {
+  background-color: rgb(77, 77, 77);
+}
+
+#result-panel {
+  background-color: gray;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 25vh;
+}
+
+#replay {
+  background-color: green;
+  width: 75%;
+  height: 15%;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 10px;
+}
+
+#replay:hover {
+  border-color: darkgrey;
+}
